@@ -44,7 +44,6 @@ a:hover {
 }
 
 body{
-    background: rgb(223,30,30);
     background: linear-gradient(130deg, rgba(223,30,30,1) 0%, rgba(66,5,5,1) 100%);
     overflow-y: hidden;
     overflow-x: hidden;
@@ -63,7 +62,6 @@ body{
     border-radius: 20px;
 }
 .loginblock .imagemLogin{
-    background: rgb(247, 247, 247);
     width: 50%;
     height: 100%;
     position: relative;

@@ -11,7 +11,7 @@
     <section>
     <div class="loginblock">
         <div class="imagemLogin">
-            <img src="/img/1.png" alt="">
+            <img src="/img/2.png" alt="">
         </div>
     </div>
 </section>
