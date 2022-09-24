@@ -68,9 +68,10 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(/img/3.webp);
+    background: url(/img/5.png);
     background-size: 120vh;
-    background-position-x: -100px;
+    background-position-x: -120px;
+    background-position-y: -120px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     transition: .7s ease;
@@ -101,8 +102,8 @@ h1 {
 
 .loginblock .logincontent .login h2 {
     font-size: 7vh;
-    margin-top: 2%;
-    margin-left: 35%;
+    margin-top: -2%;
+    margin-left: 23%;
 }
 .loginblock .logincontent .login #logoLogin {
     height: 5vh;
@@ -117,11 +118,11 @@ h1 {
     margin-top: 2%;
     margin-left: 2%;
 }
-
 .loginblock .logincontent .login p {
     font-size: 1.5vh;
-    margin-top: 3%;
-    margin-left: 20%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-left: 30%;
     color: rgb(109, 109, 109);
 }
 
@@ -133,7 +134,7 @@ h1 {
 
 .loginblock .logincontent .login .formLogin .userInput {
     margin-left: 15%;
-    margin-top: 10%;
+    margin-top: 3%;
     width: 70%;
     height: 10%;
     border: none;
@@ -146,32 +147,32 @@ h1 {
 .loginblock .logincontent .login .formLogin .userInput:focus {
     border-bottom: 0.4vh solid #ff0000;
 }
-
-.loginblock .logincontent .login .formLogin p{
+.loginblock .logincontent .login .formLogin #senhaEsqueceu{
     font-size: 1.5vh;
     margin-top: 4%;
     margin-left: 37%;
     color: rgb(226, 101, 101);
     transition: .7s ease;
+    cursor: pointer     ;
 }
-.loginblock .logincontent .login .formLogin p:hover{
+.loginblock .logincontent .login .formLogin #senhaEsqueceu:hover{
     color: rgb(167, 11, 11);
 }
-.loginblock .logincontent .login .formLogin #registrar2{
+.loginblock .logincontent .login .formLogin #login{
     font-size: 1.5vh;
     margin-top: 4%;
     margin-left: 34%;
     color: rgb(226, 101, 101);
     transition: .7s ease;
 }
-.loginblock .logincontent .login .formLogin #registrar{
+.loginblock .logincontent .login .formLogin #login a{
     font-size: 1.5vh;
-    margin-top: 4%;
+    margin-top: 2%;
     color: rgb(226, 101, 101);
     transition: .7s ease;
     text-decoration: none;
 }
-.loginblock .logincontent .login .formLogin #registrar:hover{
+.loginblock .logincontent .login .formLogin #login a:hover{
     color: rgb(167, 11, 11);
 }
 
@@ -188,7 +189,7 @@ button:hover {
 }
 
 .container-login100-form-btn {
-    margin-top: 15%;
+    margin-top: 5%;
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
