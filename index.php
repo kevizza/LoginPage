@@ -11,16 +11,18 @@
     <title>Música Muda o Mundo - Frecy</title>
 </head>
 
+
+
 <body>
 
     <!-- NavBar -->
 
     <header>
         <nav>
-            <div class="logodiv">
+            <div id="logo-dinamico" class="logodiv">
                 <a class="logo" href="./index.html" style="text-decoration:none;">
                     <h1 id="h1asus">ASUS</h1>
-                    <img id="imgasus" src="/img/logo.png" onmouseover="<h1>Asus</h1>">
+                    <img id="imgasus" src="/img/logo.png">
                 </a>
             </div>
             <div class="mobile-menu">
@@ -122,6 +124,24 @@
     <script src="https://kit.fontawesome.com/4c9f52c1b8.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="./mobile-navbar.js"></script>
+
+    <script type="text/javascript">
+    window.onload = teste;
+
+    function teste()
+    {
+        document.querySelector("#logo-dinamico").onmouseover = function()
+        {
+            document.querySelector("#imgasus").style.display = 'none';
+
+            alert("acou"); imgasus
+        }
+    }
+
+    
+
+    </script>
+
     <script>
         // $(".logodiv").hover(function() {
         //     $(this).children("h1").show();
