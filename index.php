@@ -32,7 +32,7 @@
                 <li><a href="/View/LoginPage/login.php" style="text-decoration:none;color: #bfbfbf;">
                         <h2>Entrar</h2>
                     </a></li>
-                <li><a href="/Views/RegisterPage/Registro.php" style="text-decoration:none;color: #bfbfbf;">
+                <li><a href="/View/RegisterPage/registrar.php" style="text-decoration:none;color: #bfbfbf;">
                         <h2>Inscrever-se</h2>
                     </a></li>
                 <li> </li>
