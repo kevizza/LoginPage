@@ -64,8 +64,8 @@
     display: none;
   }
   .logo img{
-    height: 7vh;
-    width: 11vh;
+    height: 6vh;
+    width: 10vh;
   }
   header .logo:hover{
     color: #d03636;

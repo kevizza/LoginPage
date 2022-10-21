@@ -41,9 +41,10 @@
                             </div>
                             <div class="wrap-login100-form-btn">
                                 <div class="login100-form-bgbtn"></div>
-                                <button class="login100-form-btn" type="submit">
+                               <a href="/index.php" style="text-decoration: none;"><button class="login100-form-btn" type="submit">
                                     <b>Voltar</b>
                                 </button>
+                                </a> 
                             </div>
                         </div>
                     </div>
