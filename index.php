@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="./style.css">
-    <link rel="icon" type="image/png" href="Imgs/Logo_of.png" />
+    <link rel="icon" type="image/png" href="img/icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>Música Muda o Mundo - Frecy</title>
+    <title>Do Your Best - Asus</title>
 </head>
 
 
@@ -20,7 +20,7 @@
     <header>
         <nav>
             <div id="logo-dinamico" class="logodiv">
-                <a class="logo" href="./index.html" style="text-decoration:none;">
+                <a class="logo" href="/index.php" style="text-decoration:none;">
                     <h1 id="h1asus">ASUS</h1>
                     <img id="imgasus" src="/img/logo.png">
                 </a>
@@ -89,8 +89,7 @@
             <h2>
                 É questão de PRÁTICA
             </h2>
-            <h3>A resposta curta e grossa é: SIM, a programação é uma coisa complicada de se entender, SE você NÃO
-                se dedicar a entender como as coisas funcionam e ter vontade de aprender você não se dará bem com programação.
+            <h3>Pra você se tornar o melhor de TODOS, é necessário treino, TREINE e alcance seus sonhos!
             </h3>
 
         </div>
@@ -123,8 +122,7 @@
     <!--Scripts -->
     <script src="https://kit.fontawesome.com/4c9f52c1b8.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="./mobile-navbar.js"></script>
-
+    <script src="/mobile-navbar.js"></script>
     <script type="text/javascript">
     window.onload = teste;
 
@@ -132,25 +130,10 @@
     {
         document.querySelector("#logo-dinamico").onmouseover = function()
         {
-            document.querySelector("#imgasus").style.display = 'none';
-
-            alert("acou"); imgasus
+            document.querySelector("#h1asus").style.opacity = '1';
+            document.querySelector("#imgasus").style.opacity = '0';
         }
     }
-
-    
-
-    </script>
-
-    <script>
-        // $(".logodiv").hover(function() {
-        //     $(this).children("h1").show();
-        //     $(this).children("img").hide();
-        // }, function() {
-        //     $(this).children("h1").hide();
-        //     $(this).children("img").show();
-        // });
-
     </script>
 </body>
 
