@@ -38,7 +38,7 @@
                         </div>
                     </div>
                     <p id="senhaEsqueceu">Esqueceu sua senha?</p>
-                    <p id="login">Já possui uma conta? <a href="/index.php">LOGIN</a></p>
+                    <p id="login">Já possui uma conta? <a href="/View/LoginPage/login.php">LOGIN</a></p>
                 </div>
             </div>
         </div>
