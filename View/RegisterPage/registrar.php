@@ -56,7 +56,6 @@
                             </a>
                             <h2 id="registrar2">Já possui uma conta? <a href="/View/RegisterPage/registrar.php" id="registrar">ENTRAR</a></h2>
                         </div>
-                    </div>
                 </div>
             </div>
         </div>
