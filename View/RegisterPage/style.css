@@ -27,7 +27,10 @@ a:hover {
 }
 
 body {
-    background-image: radial-gradient(circle, #f02525, #c91d1e, #a41518, #800d11, #5e0707);
+    background: url(/img/Fundoregistro2.jpg);
+    background-size: 100%;
+    background-color: rgba(63, 5, 5, 0.8);
+    background-blend-mode: multiply;
     font-family: "Poppins-Regular", sans-serif;
     display: flex;
     height: 100%;
@@ -68,19 +71,21 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(/img/3.webp);
-    background-size: 120vh;
-    background-position-x: -120px;
-    background-position-y: -120px;
+    background: url(/img/Fundoregistro.jpg);
+    background-size: 220%;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: color;
+    background-position-x: -25vh;
+    background-position-y: -15vh;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     transition: .7s ease;
 }
 
 .loginblock .imagemLogin:hover {
-    background-size: 135vh;
-    background-position-x: -100px;
-    background-position-y: -100px;
+    background-size: 250%;
+    background-position-x: -30vh;
+    background-position-y: -13vh;
 }
 
 .loginblock .logincontent {
@@ -114,11 +119,7 @@ h1 {
     transition: .7s ease;
 }
 .loginblock .logincontent .login #logoLogin:hover{
-    height: 6vh;
-    width: 10vh;
     opacity: 1;
-    margin-top: 2%;
-    margin-left: 2%;
 }
 .loginblock .logincontent .login p {
     font-size: 1.5vh;
@@ -136,11 +137,11 @@ h1 {
 
 .loginblock .logincontent .login .formLogin .userInput {
     margin-left: 15%;
-    margin-top: 1%;
+    margin-top: 8%;
     width: 70%;
     height: 10%;
     border: none;
-    border-bottom: 0.1vh solid black;
+    border-bottom: 0.2vh solid black;
     font-size: 2vh;
     outline: none;
     transition: .7s ease;
@@ -149,23 +150,18 @@ h1 {
 .loginblock .logincontent .login .formLogin .userInput:focus {
     border-bottom: 0.4vh solid #ff0000;
 }
+.loginblock .logincontent .login .formLogin .userInput:focus {
+    border-bottom: 0.4vh solid #ff0000;
+}
 
 .baixo{
-    margin-top: 10%;
+    margin-top: 3%;
     font-family: Arial, Helvetica, sans-serif;
 }
-.baixo #esqueceu{
-    font-size: 1.5vh;
-    margin-left: 35%;
-    color: rgb(226, 101, 101);
-    transition: .7s ease;
-}
-.baixo #esqueceu:hover{
-    color: rgb(167, 11, 11);
-}
 .baixo #registrar2{
+    margin-top: 2%;
     font-size: 1.5vh;
-    margin-left: 30%;
+    margin-left: 33%;
     color: rgb(226, 101, 101);
     transition: .7s ease;
 }
@@ -196,7 +192,7 @@ h1 {
   }
   
   .wrap-login100-form-btn {
-    width: 30%;
+    width: 40%;
     display: block;
     position: relative;
     z-index: 1;

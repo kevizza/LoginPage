@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>Do Your Best - Asus</title>
+    <title>Fear No One - Asus</title>
 </head>
 
 
@@ -57,14 +57,14 @@
     <div id="showcase">
         <div class="showcase-container">
             <h2>
-                Asus GAMING
+                Asus <a style="color: #d03636;">GAMING</a>
             </h2>
-            <h3>a marca número 1 em perifericos e hardwares para Jogos apresenta a nova plataforma para gamers
-                de todo o MUNDO
+            <h3>A marca número 1 em perifericos e hardwares para Jogos apresenta a nova plataforma para gamers
+                de todo o <a style="color: #5a6afc;"><b>MUNDO</b></a>
             </h3>
             <br>
             <div class="btn">
-                <a href="/View/LoginPage/login.php"><button class="btn-primary">Entre de Graça</button></a>
+                <a href="/View/LoginPage/login.php"><button class="btn-primary">Entre na versão BETA</button></a>
             </div>
         </div>
     </div>
@@ -73,9 +73,9 @@
     <div id="showcase2">
         <div class="showcase-container2">
             <h2>
-                Devore seus INIMIGOS
+                Devore seus <a style="color: #d03636; font-family: ;">INIMIGOS</a>
             </h2>
-            <h3>Com os produtos de primeira linha da ASUS GAMING o seu jogo fica mais imersivo e mais fluido
+            <h3>Com os produtos de primeira linha da <a style="color: #5a6afc;"><b>ASUS GAMING</b></a> o seu jogo fica mais imersivo e mais fluido
                 assim trazendo uma maior experiência dentro dos jogos.
             </h3>
         </div>
@@ -87,9 +87,9 @@
 
 
             <h2>
-                É questão de PRÁTICA
+                É questão de <a style="color: #d03636;">PRÁTICA</a>
             </h2>
-            <h3>Pra você se tornar o melhor de TODOS, é necessário treino, TREINE e alcance seus sonhos!
+            <h3>Pra você se tornar o melhor de <a style="color: #5a6afc;"><b>TODOS</b></a>, é necessário treino, <a style="color: #5a6afc;"><b>TREINE</b></a> e alcance seus sonhos!
             </h3>
 
         </div>
@@ -123,18 +123,6 @@
     <script src="https://kit.fontawesome.com/4c9f52c1b8.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="/mobile-navbar.js"></script>
-    <script type="text/javascript">
-    window.onload = teste;
-
-    function teste()
-    {
-        document.querySelector("#logo-dinamico").onmouseover = function()
-        {
-            document.querySelector("#h1asus").style.opacity = '1';
-            document.querySelector("#imgasus").style.opacity = '0';
-        }
-    }
-    </script>
 </body>
 
 </html>
