@@ -17,12 +17,9 @@ $logarray = $array['usuario'];
       if($logarray == $usuario){
 
        
-        print"<Script>
-            Swal.fire({
-          icon: 'error',
-          title: 'Essa conta já está registrada',
-        })
-        </Script>";
+        echo"<script type='text/javascript'>
+        alert('Esse usuario já está registrado');window.location
+        .href='registrar.php'</script>";
 
       }else{
         $query = "INSERT INTO usuarios (nome_completo,usuario,email,senha,data_nasc) VALUES ('$nome_completo','$usuario','$email','$senha','$data_nasc')";
@@ -32,7 +29,7 @@ $logarray = $array['usuario'];
           header('Location: /View/LoginPage/login.php');
         }else{
           echo"<script type='text/javascript'>
-          alert('Não foi possível cadastrar esse usuário');window.location
+          alert('Esse usuario já está registrado');window.location
           .href='registrar.php'</script>";
         }
       }

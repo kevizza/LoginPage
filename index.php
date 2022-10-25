@@ -38,16 +38,7 @@
                         <h2>Inscrever-se</h2>
                     </a></li>
                 <li> </li>
-                <li style="color:white ;">
-                    <h2>|</h2>
-                </li>
-                <li> </li>
-                <li><a href="#" style="text-decoration:none;color: #bfbfbf;">
-                        <h2>Suporte</h2>
-                    </a></li>
-                <li><a href="/Views/PremiumPage/Premium.php" style="text-decoration:none;color: #bfbfbf;">
-                        <h2>Premium</h2>
-                    </a></li>
+
             </ul>
         </nav>
     </header>

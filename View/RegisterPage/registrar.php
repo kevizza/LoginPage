@@ -31,7 +31,7 @@
                         <input class="userInput" type="text" name="usuario" id="usuarioo" placeholder="Nome de Usuario" minlength="3" maxlength="36" required>
                         <input class="userInput" type="text" name="email" id="email" placeholder="E-mail" pattern="^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$" required>
                         <input class="userInput" type="password" name="senha" id="senha" placeholder="Senha" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,12}$" title="A senha deve conter entre 6- 12, pelo menos letra maiúscula, um número e não deve conter símbolos." required>
-                        <input class="userInput" type="password" name="senha" id="senha" placeholder="Reescreva aSenha" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,12}$" title="A senha deve conter entre 6 - 12, pelo menos letra maiúscula, um número e não deve conter símbolos." required>
+                        <!-- s -->
                         <input class="userInput" type="date" name="data_nasc" id="data_nasc" required>
                         <div class="btns">
                             <div class="container-login100-form-btn">
@@ -54,11 +54,5 @@
     </div>
 </body>
 <Script src="/sweetalert2/sweetalert.js"></Script>
-<Script>
-    Swal.fire({
-  icon: 'error',
-  title: 'Essa conta já está registrada',
-})
-</Script>
 
 </html>
